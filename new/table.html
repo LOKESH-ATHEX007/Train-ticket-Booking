@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Train Schedule</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Train Number</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Departure</th>
+            <th>Arrival</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>12345</td>
+            <td>Chennai</td>
+            <td>Salem</td>
+            <td>10:00 AM</td>
+            <td>4:00 PM</td>
+        </tr>
+        <tr>
+            <td>67890</td>
+            <td>Chengalpet</td>
+            <td>Kanyakumari</td>
+            <td>5:00 PM</td>
+            <td>6:00 AM</td>
+        </tr>
+        <tr>
+            <td>11223</td>
+            <td>Chennai</td>
+            <td>Sivagangai</td>
+            <td>6:30 AM</td>
+            <td>3:30 PM</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>Booking Details</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Field</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Passenger Name</td>
+            <td>Lokesh.S</td>
+        </tr>
+        <tr>
+            <td>Train Number</td>
+            <td>12345</td>
+        </tr>
+        <tr>
+            <td>Class</td>
+            <td>3A</td>
+        </tr>
+        <tr>
+            <td>Amount</td>
+            <td>1500</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
